@@ -2,7 +2,7 @@ import { Mail, Send } from "lucide-react";
 
 export function CTA() {
   return (
-    <section className="relative overflow-hidden bg-[#0a0a0a] py-24 text-white">
+    <section id="contact" className="relative overflow-hidden bg-[#0a0a0a] py-24 text-white">
       {/* subtle grid */}
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.04]"

@@ -8,7 +8,7 @@ const projects = [
     id: "studyflow",
     title: "StudyFlow",
     description:
-      "Plataforma de aprendizaje personalizado impulsada por IA que adapta el contenido al ritmo y estilo de cada estudiante.",
+      "Персонализированная образовательная платформа на базе ИИ, которая адаптирует контент под темп и стиль каждого ученика.",
     tags: ["React", "OpenAI", "Tailwind", "Supabase"],
     image: studyflowAsset.url,
   },
@@ -16,7 +16,7 @@ const projects = [
     id: "neuroanalyst",
     title: "НейроАналитик",
     description:
-      "Servicio de análisis de datos con modelos de IA que transforma reportes complejos en insights accionables.",
+      "Сервис анализа данных с моделями ИИ, который превращает сложные отчёты в понятные инсайты и рекомендации.",
     tags: ["Python", "LangChain", "PostgreSQL", "Recharts"],
     image: neuroanalystAsset.url,
   },
@@ -24,7 +24,7 @@ const projects = [
     id: "launchpro",
     title: "LaunchPro",
     description:
-      "Landing page de alto impacto para el lanzamiento de un producto, optimizada para conversión y velocidad.",
+      "Высококонверсионный лендинг для запуска продукта, оптимизированный под скорость загрузки и конверсию.",
     tags: ["Next.js", "TypeScript", "Framer Motion", "Vercel"],
     image: launchproAsset.url,
   },
@@ -49,7 +49,7 @@ export function FeaturedProjects() {
         <div className="mb-14 max-w-2xl">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs tracking-widest text-white/70 backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-[#d4ff3f] shadow-[0_0_8px_#d4ff3f]" />
-            PORTFOLIO
+            ПОРТФОЛИО
           </div>
           <h2 className="font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
             Избранные{" "}
@@ -58,7 +58,7 @@ export function FeaturedProjects() {
             </span>
           </h2>
           <p className="mt-4 text-base leading-relaxed text-white/60">
-            Una selección de productos y experiencias construidos con IA, velocidad y atención al detalle.
+            Подборка продуктов и интерфейсов, созданных с помощью ИИ, на скорости и с вниманием к деталям.
           </p>
         </div>
 

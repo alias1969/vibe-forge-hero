@@ -67,7 +67,7 @@ export function Hero() {
             </a>
             <a
               href="#projects"
-              className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.03] px-7 py-3.5 text-sm text-white/90 backdrop-blur transition hover:border-[#d4ff3f]/40 hover:text-white"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#d4ff3f] px-7 py-3.5 text-sm font-medium text-black shadow-[0_0_40px_rgba(212,255,63,0.35)] transition hover:shadow-[0_0_60px_rgba(212,255,63,0.6)]"
             >
               Избранные проекты
             </a>

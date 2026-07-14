@@ -1,5 +1,15 @@
 import { ArrowRight, Sparkles, Zap, Code2, Rocket, Activity } from "lucide-react";
 
+function scrollToSection(id: string) {
+  return (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+}
+
 export function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-[#0a0a0a] text-white">
@@ -60,6 +70,7 @@ export function Hero() {
           <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href="#contact"
+              onClick={scrollToSection("contact")}
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#d4ff3f] px-7 py-3.5 text-sm font-medium text-black shadow-[0_0_40px_rgba(212,255,63,0.35)] transition hover:shadow-[0_0_60px_rgba(212,255,63,0.6)]"
             >
               Связаться
@@ -67,6 +78,7 @@ export function Hero() {
             </a>
             <a
               href="#projects"
+              onClick={scrollToSection("projects")}
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#d4ff3f] px-7 py-3.5 text-sm font-medium text-black shadow-[0_0_40px_rgba(212,255,63,0.35)] transition hover:shadow-[0_0_60px_rgba(212,255,63,0.6)]"
             >
               Избранные проекты
